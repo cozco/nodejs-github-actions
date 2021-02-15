@@ -273,7 +273,7 @@ function getSource (callback) {
         },
         blacklivesmatter: {
           visible: true,
-          text: '#BlackLivesMatter!',
+          text: '#BlackLivesMatter! Is it working?',
           link: '/en/black-lives-matter/'
         },
         banner: {
