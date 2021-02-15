@@ -40,7 +40,8 @@ jobs:
           password: ${{ secrets.SSH_PASSWORD }}
           script: |
             source ~/.bashrc
+            nvm install -lts
             cd ~/nodejs.org
             git pull
             pkill node
-            /root/.nvm/versions/node/v14.15.5/bin/npm start &
+            npm start &
